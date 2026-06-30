@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("https://picsum.photos/1920/1080");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-image: url("https://th.bing.com/th/id/OIP.gU0IHOlJIE6CQizndQ8hDQHaEo?w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#rock {
+    background-color: #0eac10;
+}
+#paper {
+    background-color: rgb(187, 22, 22);
+}
+#scissors {
+    background-color: rgb(185, 185, 15);
+}
+
+.your-score span {
+    color: #ba1b48;
+}
+.opponent-score span {
+    color: rgb(30, 99, 190);
+}
+h1 {
+    color: rgb(0, 6, 1);
+}
+p {
+    color: rgb(0, 6, 1);
+}
