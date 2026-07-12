@@ -41,7 +41,7 @@ const playTheGame = (human, machine) => {
     ) {
         humanScoreNumber++;
         humanScore.innerHTML = humanScoreNumber;
-        result.innerHTML = "tchê venceu !";
+        result.innerHTML = "tchÊ ganhou !";
     } else {
         machineScoreNumber++;
         machineScore.innerHTML = machineScoreNumber;
