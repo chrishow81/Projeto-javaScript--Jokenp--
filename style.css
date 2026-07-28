@@ -51,15 +51,30 @@ p {
     background-color: rgb(185, 185, 15);
 }
 
-.your-score span {
-    color: #ba1b48;
+.human-score span {
+    color: rgb(187, 22, 22);
 }
-.opponent-score span {
-    color: rgb(30, 99, 190);
+.machine-score span {
+    color: rgb(2, 38, 8);
 }
 h1 {
-    color: rgb(0, 6, 1);
+    color: rgb(2, 38, 8);
 }
 p {
-    color: rgb(0, 6, 1);
+    color: rgb(2, 38, 8);
+}
+.resetButton {
+    background: linear-gradient(to right, rgb(187, 22, 22), rgb(185, 185, 15));
+    color: rgb(2, 38, 8);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(02, 38, 8);
 }
